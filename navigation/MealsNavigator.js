@@ -98,7 +98,7 @@ const FiltersNavigator = createStackNavigator(
         Filters: FiltersScreen
     },
     {
-        defaultStackNavOptions: defaultStackNavOptions
+        defaultNavigationOptions: defaultStackNavOptions
     }
 );
 

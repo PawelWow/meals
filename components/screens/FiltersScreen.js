@@ -48,7 +48,18 @@ FiltersScreen.navigationOptions = navData => {
                     />
                 </HeaderButtons>
             );
-        } 
+        },
+        headerRight: () =>{
+            return (
+                <HeaderButtons HeaderButtonComponent={CustomHeaderButton}>
+                    <Item title="Save" iconName="ios-save" 
+                        onPress={() => {
+                            nconsole.log('Saving filters!')
+                        }} 
+                    />
+                </HeaderButtons>
+            );
+        }, 
     }
   }
 
