@@ -20,11 +20,7 @@ const CategoriesScreen = props => {
                             }
                         });
                 }}
-            >
-                <View>
-                    <Text>{itemData.item.title}</Text>
-                </View>
-            </CategoryGridTile>
+            />
         ); 
     }
 
