@@ -116,10 +116,13 @@ const MainNavigator = createDrawerNavigator(
         contentOptions: {
             activeTintColor: Colors.accentColor,
             labelStyle: {
-                fontFamily: 'open-sans-bold'
-            }
-        }
+                fontFamily: 'open-sans-bold',
+                fontSize: 20
+            },           
+        },
+        drawerBackgroundColor: 'rgba(255, 255, 255, 0.9)',
     }
+
 );
 
 export default createAppContainer(MainNavigator);
